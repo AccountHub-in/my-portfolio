@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish's Portfolio</title>
+    <!-- Favicon - You might want to create a custom one -->
+    <link rel="icon" href="https://placehold.co/32x32/FF0000/FFFFFF?text=S" type="image/x-icon">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uW/jI+Lg0yQyU0nJvK/TjTq66T7tT6J2T6/y3E7u/y7B9x7b" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <!-- Google Fonts: Poppins and Roboto Slab -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#hero" class="logo">Satish<span class="logo-dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content animate-on-scroll fade-in">
+            <h1 class="hero-title">WELCOME TO MY WORLD</h1>
+            <p class="hero-subtitle">Hello I'm <span class="highlight">Satish</span></p>
+            <p class="hero-intro">I'm into <span id="text-animation"></span></p>
+            <p class="hero-quote">Here to help you with better moving & faster. I was able to help so many clients by
+                creating an attractive website, bringing ideas to life with code.</p>
+            <div class="social-links">
+                <a href="https://github.com/AccountHub-in" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/satish-kumar-aa5886376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/realsatishaxe?t=TTBAlL56lpNan91W0ciRHg&s=08" target="_blank"
+                    aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"
+                    aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"
+                    aria-label="facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+            <a href="tel:+918102965213" class="contact-link"><i class="fas fa-phone-alt"></i> +91 8102965213</a>
+        </div>
+        <div class="hero-image animate-on-scroll fade-in">
+            <!-- Placeholder image for a 3D character -->
+            <img src="charector.jpg" alt="3D character of a person">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me-section" id="about-me">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-user-circle"></i> About Me</h2>
+            </div>
+            <div class="about-me-content">
+                <div class="profile-image animate-on-scroll slide-up">
+                    <!-- Placeholder image for profile picture -->
+                    <img src="sat.jpg" alt="Satish's Profile Picture">
+                </div>
+                <div class="about-me-text animate-on-scroll slide-up">
+                    <h3>Passionate Full Stack Developer | Competitive Programmer</h3>
+                    <p>
+                        I'm a passionate Full Stack Developer with experience in building dynamic and responsive web
+                        applications. I'm also a competitive programmer with a solid understanding of data structures
+                        and algorithms. My goal is to create efficient and user-friendly solutions that solve real-world
+                        problems.
+                    </p>
+                    <p>
+                        I believe in continuous learning and adapting to new technologies. I am always seeking new
+                        challenges and opportunities to grow my skills. When I'm not coding, you can find me exploring
+                        new libraries, frameworks, or contributing to open-source projects.
+                    </p>
+                    <p>
+                        My journey has been incredible, and I am excited to see what the future holds. I am confident
+                        that I can be a valuable asset to any team, bringing my passion, dedication, and problem-solving
+                        skills to the table.
+                    </p>
+                    <!-- Link to resume PDF (replace with actual path) -->
+                    <a href="https://example.com/your-resume.pdf" class="btn" download>Resume <i
+                            class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-code"></i> Professional Skills</h2>
+                <p>Innovative Solutions to <span class="highlight">enhance</span>.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card animate-on-scroll slide-up">
+                    <div class="skill-item">
+                        <img src="react.jpg" alt="ReactJS Icon">
+                        <span>ReactJS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="html,css.jpg" alt="HTML/CSS Icon">
+                        <span>HTML/CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 83%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="python.jpg" alt="Python Icon">
+                        <span>Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 72%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="js.jpg" alt="Javascript Icon">
+                        <span class="skill-name">Javascript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 66%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll slide-up">
+                    <div class="skill-item">
+                        <img src="nodejs.jpg" alt="NodeJS Icon">
+                        <span>NodeJS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="typesc.jpg" alt="TypeScript Icon">
+                        <span>TypeScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="mysql.jpg" alt="MySQL Icon">
+                        <span>MySQL</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="php.jpg" alt="PHP Icon">
+                        <span>PHP</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section" id="education">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-graduation-cap"></i> My Education</h2>
+                <p>My History of <span class="highlight">success</span>.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item animate-on-scroll slide-up">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering in Computer Science</h3>
+                        <p>K.K College of Engineering and Management, Dhanbad</p>
+                        <p class="timeline-date">2023 - 2027 | Pursuing</p>
+                    </div>
+                    <div class="timeline-image">
+                        <!-- Placeholder image for college building -->
+                        <img src="kk.jpg" alt="College building">
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll slide-up">
+                    <div class="timeline-content">
+                        <h3>High School | Science</h3>
+                        <p>Symbiosis Public School, Dhanbad</p>
+                        <p class="timeline-date">2021 - 2023 | Completed</p>
+                    </div>
+                    <div class="timeline-image">
+                        <!-- Placeholder image for high school building -->
+                        <img src="sym.jpg" alt="High School building">
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll slide-up">
+                    <div class="timeline-content">
+                        <h3>School</h3>
+                        <p>Indian Public School, Dhanbad</p>
+                        <p class="timeline-date">2013 - 2021 | Completed</p>
+                    </div>
+                    <div class="timeline-image">
+                        <!-- Placeholder image for school building -->
+                        <img src="ind.jpg" alt="School building">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-briefcase"></i> My Experience</h2>
+                <p>My Tech <span class="highlight">journey</span>.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-card left animate-on-scroll slide-up">
+                    <div class="card-content">
+                        <h3>Software Developer Intern</h3>
+                        <p>at Google</p>
+                        <ul>
+                            <li>- Built an accessibility-compliant navigation system for Google Maps.</li>
+                            <li>- Developed a data visualization dashboard using React.js and D3.js.</li>
+                            <li>- Collaborated with a team of 10 developers on the product launch.</li>
+                        </ul>
+                    </div>
+                    <div class="date">2025 - Present</div>
+                </div>
+                <div class="timeline-card right animate-on-scroll slide-up">
+                    <div class="card-content">
+                        <h3>Freelancer</h3>
+                        <p>at Fiverr & Upwork</p>
+                        <ul>
+                            <li>- Developed 5 websites for clients using MERN stack.</li>
+                            <li>- Designed and implemented databases for a local e-commerce store.</li>
+                            <li>- Optimized website performance, resulting in a 20% speed improvement.</li>
+                        </ul>
+                    </div>
+                    <div class="date">2024 - Present</div>
+                </div>
+                <div class="timeline-card left animate-on-scroll slide-up">
+                    <div class="card-content">
+                        <h3>Code-OP Fellow</h3>
+                        <p>at Google Developer Student Clubs</p>
+                        <ul>
+                            <li>- Led weekly coding sessions for college students.</li>
+                            <li>- Mentored new students in C++ and Python programming.</li>
+                            <li>- Organized competitive programming competitions.</li>
+                        </ul>
+                    </div>
+                    <div class="date">2023 - 2024</div>
+                </div>
+                <div class="timeline-card right animate-on-scroll slide-up">
+                    <div class="card-content">
+                        <h3>GDSC Core Lead</h3>
+                        <p>at Google Developer Student Clubs</p>
+                        <ul>
+                            <li>- Managed the competitive programming team at GDSC.</li>
+                            <li>- Organized workshops and hackathons for the community.</li>
+                            <li>- Hosted presentations and sessions on the latest technologies.</li>
+                        </ul>
+                    </div>
+                    <div class="date">2022 - 2023</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-laptop-code"></i> My Projects</h2>
+                <p>Crafting solutions, one project at a <span class="highlight">time</span>.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll slide-up">
+                    <!-- Placeholder image for project -->
+                    <img src="https://placehold.co/400x200/1a1a1a/FFFFFF?text=Project+1" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A portfolio website built using React, showcasing my skills and projects.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll slide-up">
+                    <img src="https://placehold.co/400x200/1a1a1a/FFFFFF?text=Project+2" alt="Project 2">
+                    <div class="project-info">
+                        <h3>CodeDiyan</h3>
+                        <p>A community platform for developers to share code snippets.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll slide-up">
+                    <img src="https://placehold.co/400x200/1a1a1a/FFFFFF?text=Project+3" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Bylg System</h3>
+                        <p>A robust task management system for small to medium-sized teams.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll slide-up">
+                    <img src="https://placehold.co/400x200/1a1a1a/FFFFFF?text=Project+4" alt="Project 4">
+                    <div class="project-info">
+                        <h3>The App</h3>
+                        <p>A mobile application designed to track personal fitness goals.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll slide-up">
+                    <img src="https://placehold.co/400x200/1a1a1a/FFFFFF?text=Project+5" alt="Project 5">
+                    <div class="project-info">
+                        <h3>My Personal Website</h3>
+                        <p>My personal website built with HTML, CSS, and Javascript. Fully responsive.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="project.html" class="btn view-all-btn animate-on-scroll fade-in">View All Projects</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll slide-up">
+                <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll slide-up">
+                    <h3>Contact Me</h3>
+                    <p>Have a project in mind? Let's chat! Feel free to reach out for any inquiries or collaborations.
+                    </p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i><span>Address:</span> DHANBAD, JHARKHAND</p>
+                        <p><i class="fas fa-envelope"></i><span>Email:</span> s.https.mail@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i><span>Phone:</span> +91 8102965213</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/AccountHub-in" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/satish-kumar-aa5886376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/realsatishaxe?t=TTBAlL56lpNan91W0ciRHg&s=08" target="_blank"
+                            aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container animate-on-scroll slide-up">
+                    <h3>GET FREE QUOTE NOW!</h3>
+                    <form action="#" class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">SEND MESSAGE</button>
+                    </form>
+                    <p class="form-info">Contact details, the smallest print that holds the biggest connections</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="thank-you-message animate-on-scroll fade-in">
+                    <p>Thank you for visiting my portfolio website. I hope you found something that sparked your
+                        interest. I am excited to connect and explore opportunities to create something great together.
+                        Wishing you a fantastic day!</p>
+                </div>
+                <div class="footer-nav animate-on-scroll fade-in">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact animate-on-scroll fade-in">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> s.https.mail@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 8102965213</p>
+                    <div class="social-links">
+                        <a href="https://github.com/AccountHub-in" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/satish-kumar-aa5886376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+                        <a href="https://x.com/realsatishaxe?t=TTBAlL56lpNan91W0ciRHg&s=08" target="_blank"
+                            aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Made in India with <i class="fas fa-heart"></i> Love</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
